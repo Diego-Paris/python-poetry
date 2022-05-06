@@ -16,7 +16,8 @@ The goal of this project is to demonstrate how [poetry](https://python-poetry.or
 ### How to update poetry
 
 ```bash
-# Updating Poetry to the latest stable version is as simple as calling the self update command.
+# Updating Poetry to the latest stable version is 
+# as simple as calling the self update command.
 
 poetry self update
 ```
@@ -43,7 +44,8 @@ poetry new .
 ### Initialising a pre-existing project
 
 ```bash
-#  Poetry can be used to ‘initialise’ a pre-populated directory. To interactively create a pyproject.toml file in directory pre-existing-project
+# Poetry can be used to ‘initialise’ a pre-populated directory. 
+# To interactively create a pyproject.toml file in directory pre-existing-project
 
 cd pre-existing-project
 poetry init
@@ -62,7 +64,9 @@ poetry add <dependecy>
 ### How to use the virtual environment
 
 ```bash
-# Use poetry run to execute without explicitly activating the virtual environment in the current terminal. (Poetry still uses the virtual environment behind the scenes)
+# Use poetry run to execute without explicitly activating 
+# the virtual environment in the current terminal. 
+# (Poetry still uses the virtual environment behind the scenes)
 
 poetry run python <your_script>.py
 ```
@@ -78,7 +82,9 @@ poetry shell
 ### How to find where the virtual environment is installed
 
 ```bash
-# Poetry does not install the virtual environment in the project's directory. It instead installs at {cache-dir}\virtualenvs. You can change the cache-dir value by editing the poetry config.
+# Poetry does not install the virtual environment in the project's 
+# directory. It instead installs at {cache-dir}\virtualenvs. 
+# You can change the cache-dir value by editing the poetry config.
 
 poetry env info --path
 ```
@@ -88,7 +94,9 @@ poetry env info --path
 ### How to install dependencies
 
 ```bash
-# So you just got a repo that uses poetry, use poetry install to install all the dependencies and create your virtual environment and the poetry.lock file if they are not already created.
+# So you just got a repo that uses poetry, use poetry install to 
+# install all the dependencies and create your virtual environment 
+# and the poetry.lock file if they are not already created.
 
 poetry install
 ```
@@ -106,7 +114,9 @@ Cited from [here.](https://python-poetry.org/docs/basic-usage/#commit-your-poetr
 ### How to update the dependencies to their latest versions
 
 ```bash
-# This will fetch the latest matching versions (according to your pyproject.toml file) and update the lock file with the new versions. (This is equivalent to deleting the poetry.lock file and running install again.)
+# This will fetch the latest matching versions 
+# (according to your pyproject.toml file) and update the lock file with the new versions. 
+# (This is equivalent to deleting the poetry.lock file and running install again.)
 
 poetry update 
 ```

@@ -24,14 +24,14 @@ poetry self update
 ### How to create a new python project using poetry
 
 
-```bash
+```console
 # Creates the project in a subfolder of the given name.
 $ poetry new <project-name>
 ```
 
-```bash
+```console
 # Creates the project in the current folder.
-$ poetry new .
+poetry new .
 ```
 
 

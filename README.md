@@ -15,7 +15,7 @@ The goal of this project is to demonstrate how [poetry](https://python-poetry.or
 
 ### How to update poetry
 
-```bash
+```shell
 poetry self update
 ```
 
